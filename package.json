@@ -1,0 +1,28 @@
+{
+  "name": "large-number-add-tool",
+  "version": "1.0.1",
+  "description": "a large number tools build by webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yklydxtt/large-number.git"
+  },
+  "author": "rainbow-fart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yklydxtt/large-number/issues"
+  },
+  "homepage": "https://github.com/yklydxtt/large-number#readme",
+  "dependencies": {
+    "large-number-add-tool": "^1.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.0.0"
+  }
+}
